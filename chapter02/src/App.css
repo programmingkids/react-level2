@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.my-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.my-table tr{
+  cursor: pointer;
+  background-color: #f1f8ff;
+}
+
+.my-table tr:hover{
+  background-color: #d4f0fd;
+}
+
+.my-table th,table td{
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+  border: 1px solid #ccc;
+}
+
+.my-table th {
+  background-color : #2d8fdd;
+  color: #fff;
+}
+
+.my-def {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.my-def dt {
+  background-color: #de8a9d;
+  padding: 0.5em;
+  color: #fff;
+}
+
+.my-def dd {
+  padding: 1em;
+  margin-left: 0;
+  margin-bottom: 1em;
+  border: 1px solid #de839d;
+}
+
+.my-team {
+  width: 40%;
+  margin: 0 auto 1em;
+  padding: 1em;
+  border: 1px solid #1E90FF;
+  border-left-width: 10px;
+  background: #FFF8DC;
+}
