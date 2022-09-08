@@ -1,27 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 
-import React from 'react';
-
-const App = () => {
-  const teamData = ['Yankees', 'Angels', 'Dodgers','Mariners'];
-  
+function App() {
   return (
     <div className="App">
-      <Title>Teams</Title>
-      <TeamList teamData={teamData} />
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
-};
-
-const Title = (props) => <h1>{props.children}</h1>;
-
-const TeamList = ({teamData}) => (
-  <>
-    {teamData.map(team => 
-      <div key={team} className="my-team">{team}</div>
-    )}
-  </>
-);
+}
 
 export default App;
