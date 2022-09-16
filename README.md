@@ -7,7 +7,7 @@ JavaScript発展レベル4修了
 Reactreberu1基礎修了
 
 ## 想定学習時間
-8時間程度
+4時間程度
 
 ## 前提
 * JavaScript+ゲーム開発コース修了
@@ -29,7 +29,7 @@ Reactreberu1基礎修了
 
 ## 目標
 * Reactの基礎を理解する
-* JSXの理解
-* Reactを利用したコンポーネントの作成
-* Reactでのイベント処理
-* Ractを利用した初歩的なアプリ作成
+* 開発者ツールの導入
+* Ref
+* ファイル分割
+* React Router V6
